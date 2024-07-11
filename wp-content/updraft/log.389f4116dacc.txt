@@ -1,0 +1,121 @@
+0000.086 () Opened log file at time: Sun, 30 Jun 2024 02:48:55 +0000 on http://localhost/EcommerceCV
+0000.086 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.3 WP: 6.5.5 PHP: 8.2.12 (apache2handler, Windows NT DEVELOPERTN 10.0 build 22631 (Windows 11) AMD64) MySQL: 10.4.32-MariaDB (max packet size=33554432) WPLANG: en_US Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 72.5M | 76M) multisite: N openssl: OpenSSL 3.0.11 19 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: N
+0000.087 () Free space on disk containing Updraft's temporary directory: 818048.9 MB
+0000.121 () Restore setup, now closing connection and starting restore over AJAX.
+0000.026 () Opened log file at time: Sun, 30 Jun 2024 02:48:57 +0000 on http://localhost/EcommerceCV
+0000.026 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.3 WP: 6.5.5 PHP: 8.2.12 (apache2handler, Windows NT DEVELOPERTN 10.0 build 22631 (Windows 11) AMD64) MySQL: 10.4.32-MariaDB (max packet size=33554432) WPLANG: en_US Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 69.8M | 74M) multisite: N openssl: OpenSSL 3.0.11 19 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: N
+0000.027 () Free space on disk containing Updraft's temporary directory: 818048.9 MB
+0000.034 () Ensuring WP_Filesystem is setup for a restore
+0000.035 () WP_Filesystem is setup and ready for a restore
+0000.050 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wp_options","wp_users","wp_usermeta","wp_commentmeta","wp_comments","wp_links","wp_postmeta","wp_posts","wp_term_relationships","wp_term_taxonomy","wp_termmeta","wp_terms"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.052 () PHP event: code E_WARNING: mkdir(): File exists (line 558, D:\xampp\htdocs\EcommerceCV\wp-admin\includes\class-wp-filesystem-direct.php)
+0000.060 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.082 () Entity: db
+0000.082 () restore_backup(backup_file=backup_2024-06-30-0233_TonnySolutions_10359e8abad4-db.gz, type=db, info=a:0:{}, last_one=)
+0000.082 () Unpacking backup... (backup_2024-06-30-0233_TonnySolutions_10359e8abad4-db.gz, 0.2 Mb)
+0000.083 () PHP event: code E_WARNING: mkdir(): File exists (line 558, D:\xampp\htdocs\EcommerceCV\wp-admin\includes\class-wp-filesystem-direct.php)
+0000.084 () Database successfully unpacked
+0000.085 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.091 () Using direct MySQL access; value of use_mysqli is: 1
+0000.092 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0000.544 () Max packet size: 32 MB
+0000.544 () Entering maintenance mode
+0000.544 () Enabling Maintenance mode&#8230;
+0000.726 () Backup of: http://localhost/EcommerceCV
+0000.728 () Content URL: http://localhost/EcommerceCV/wp-content
+0000.728 () Uploads URL: http://localhost/EcommerceCV/wp-content/uploads
+0000.728 () Old table prefix: wp_
+0000.729 () UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0000.729 () Site information: multisite=0
+0000.729 () Site information: sql_mode=NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0000.730 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+0000.731 () New table prefix: zg_
+0000.737 () Processing table (InnoDB): wp_options - will restore as: zg_options
+0001.467 () Atomic restore: dropping original table (wp_options)
+0001.644 () Atomic restore: renaming new table (zg_options) to final table name (wp_options)
+0001.712 () Restoring prior UD configuration (table: wp_options; keys: 4)
+0001.816 () Processing table (InnoDB): wp_users - will restore as: zg_users
+0002.054 () Atomic restore: dropping original table (wp_users)
+0002.123 () Atomic restore: renaming new table (zg_users) to final table name (wp_users)
+0002.202 () Processing table (InnoDB): wp_usermeta - will restore as: zg_usermeta
+0002.371 () Atomic restore: dropping original table (wp_usermeta)
+0002.460 () Atomic restore: renaming new table (zg_usermeta) to final table name (wp_usermeta)
+0002.506 () Processing table (InnoDB): wp_commentmeta - will restore as: zg_commentmeta
+0002.730 () Atomic restore: dropping original table (wp_commentmeta)
+0002.819 () Atomic restore: renaming new table (zg_commentmeta) to final table name (wp_commentmeta)
+0002.876 () Processing table (InnoDB): wp_comments - will restore as: zg_comments
+0003.299 () Atomic restore: dropping original table (wp_comments)
+0003.421 () Atomic restore: renaming new table (zg_comments) to final table name (wp_comments)
+0003.467 () Processing table (InnoDB): wp_links - will restore as: zg_links
+0003.580 () Atomic restore: dropping original table (wp_links)
+0003.625 () Atomic restore: renaming new table (zg_links) to final table name (wp_links)
+0003.671 () Processing table (InnoDB): wp_postmeta - will restore as: zg_postmeta
+0003.986 () Atomic restore: dropping original table (wp_postmeta)
+0004.042 () Atomic restore: renaming new table (zg_postmeta) to final table name (wp_postmeta)
+0004.088 () Processing table (InnoDB): wp_posts - will restore as: zg_posts
+0004.258 () Atomic restore: dropping original table (wp_posts)
+0004.414 () Atomic restore: renaming new table (zg_posts) to final table name (wp_posts)
+0004.471 () Processing table (InnoDB): wp_term_relationships - will restore as: zg_term_relationships
+0004.617 () Atomic restore: dropping original table (wp_term_relationships)
+0004.695 () Atomic restore: renaming new table (zg_term_relationships) to final table name (wp_term_relationships)
+0004.763 () Processing table (InnoDB): wp_term_taxonomy - will restore as: zg_term_taxonomy
+0004.878 () Atomic restore: dropping original table (wp_term_taxonomy)
+0004.922 () Atomic restore: renaming new table (zg_term_taxonomy) to final table name (wp_term_taxonomy)
+0004.979 () Processing table (InnoDB): wp_termmeta - will restore as: zg_termmeta
+0005.115 () Atomic restore: dropping original table (wp_termmeta)
+0005.171 () Atomic restore: renaming new table (zg_termmeta) to final table name (wp_termmeta)
+0005.295 () Processing table (InnoDB): wp_terms - will restore as: zg_terms
+0006.169 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+0006.301 () Unlocking database and leaving maintenance mode
+0006.301 () Disabling Maintenance mode&#8230;
+0006.302 () Atomic restore: dropping original table (wp_terms)
+0006.403 () Atomic restore: renaming new table (zg_terms) to final table name (wp_terms)
+0006.526 () Finished: lines processed: 44 in 6.43 seconds
+0006.527 () Cleaning up rubbish...
+0006.527 () Begin search and replace (updraftplus_restored_db)
+0006.527 () [Database-replace-site-url] Database: search and replace site URL
+0006.527 () This option was not selected.
+0006.627 () Entity: plugins
+0006.627 () restore_backup(backup_file=backup_2024-06-30-0233_TonnySolutions_10359e8abad4-plugins.zip, type=plugins, info=a:3:{s:4:"path";s:46:"D:\xampp\htdocs\EcommerceCV/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0006.627 () Unpacking backup... (backup_2024-06-30-0233_TonnySolutions_10359e8abad4-plugins.zip, 7.5 MB)
+0006.629 () Unzipping backup_2024-06-30-0233_TonnySolutions_10359e8abad4-plugins.zip to D:/xampp/htdocs/EcommerceCV/wp-content/upgrade/0dfb0423/ using UpdraftPlus_PclZip, starting index 0
+0007.998 () Unzip progress: 1002 out of 1474 files (21.8 MB, plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Exception/ServiceNotFoundException.php)
+0010.052 () Unzip progress: 1474 out of 1474 files (25 MB, plugins/updraftplus/vendor/team-updraft/common-libs/src/updraft-tasks/class-updraft-tasks-activation.php)
+0010.055 () Moving old data: filesystem method / updraft_dir is potentially possible
+0010.056 () Moving old data: can potentially use wp_filesystem method / -old
+0010.056 () Moving old data out of the way...
+0011.065 () Top-level entities being moved: akismet, astra-sites, elementor, hello.php, index.php, updraftplus, wpforms-lite
+0011.088 () Moving unpacked backup into place...
+0011.383 () Top-level entities being moved: akismet, hello.php, index.php, updraftplus
+0011.389 () Cleaning up rubbish...
+0011.455 () Entity: themes
+0011.455 () restore_backup(backup_file=backup_2024-06-30-0233_TonnySolutions_10359e8abad4-themes.zip, type=themes, info=a:3:{s:4:"path";s:45:"D:\xampp\htdocs\EcommerceCV/wp-content/themes";s:11:"description";s:6:"Themes";s:20:"singular_description";s:5:"Theme";}, last_one=)
+0011.455 () Unpacking backup... (backup_2024-06-30-0233_TonnySolutions_10359e8abad4-themes.zip, 10.8 MB)
+0011.456 () Unzipping backup_2024-06-30-0233_TonnySolutions_10359e8abad4-themes.zip to D:/xampp/htdocs/EcommerceCV/wp-content/upgrade/82712a51/ using UpdraftPlus_PclZip, starting index 0
+0011.829 () Unzip progress: 330 out of 330 files (12.1 MB, themes/twentytwentytwo/templates/single.html)
+0011.833 () Moving old data: filesystem method / updraft_dir is potentially possible
+0011.834 () Moving old data: can potentially use wp_filesystem method / -old
+0011.834 () Moving old data out of the way...
+0012.142 () Top-level entities being moved: astra, index.php, twentytwentyfour, twentytwentythree, twentytwentytwo
+0012.153 () Moving unpacked backup into place...
+0012.236 () Top-level entities being moved: index.php, twentytwentyfour, twentytwentythree, twentytwentytwo
+0012.277 () Cleaning up rubbish...
+0012.324 () Entity: uploads
+0012.324 () restore_backup(backup_file=backup_2024-06-30-0233_TonnySolutions_10359e8abad4-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:46:"D:\xampp\htdocs\EcommerceCV/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0012.324 () Unpacking backup... (backup_2024-06-30-0233_TonnySolutions_10359e8abad4-uploads.zip, 0 MB)
+0012.325 () Unzipping backup_2024-06-30-0233_TonnySolutions_10359e8abad4-uploads.zip to D:/xampp/htdocs/EcommerceCV/wp-content/upgrade/568f9fe3/ using UpdraftPlus_PclZip, starting index 0
+0012.329 () Moving old data: filesystem method / updraft_dir is potentially possible
+0012.329 () Moving old data: can potentially use wp_filesystem method / -old
+0012.329 () Moving old data out of the way...
+0012.353 () Moving unpacked backup into place...
+0012.355 () Cleaning up rubbish...
+0012.428 () Entity: others
+0012.429 () restore_backup(backup_file=backup_2024-06-30-0233_TonnySolutions_10359e8abad4-others.zip, type=others, info=a:2:{s:4:"path";s:38:"D:\xampp\htdocs\EcommerceCV/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0012.429 () Unpacking backup... (backup_2024-06-30-0233_TonnySolutions_10359e8abad4-others.zip, 0 MB)
+0012.430 () Unzipping backup_2024-06-30-0233_TonnySolutions_10359e8abad4-others.zip to D:/xampp/htdocs/EcommerceCV/wp-content/upgrade/e34b91f4/ using UpdraftPlus_PclZip, starting index 0
+0012.448 () Unzip progress: 1 out of 1 files (28 B, index.php)
+0012.450 () Cleaning up rubbish...
+0012.525 () Elementor's clear cache method exists and will be executed
+0012.526 () Error (Error) occurred when cleaning up third-party cache (clear_elementor_cache) during post-restore: Class "Elementor\Core\Files\Base" not found (Code: 0, line 109 in D:\xampp\htdocs\EcommerceCV\wp-content\plugins\elementor\core\files\manager.php)
+0012.564 () Restore successful!
+0012.564 () Restore successful
